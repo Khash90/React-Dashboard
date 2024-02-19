@@ -1,8 +1,24 @@
+import { Avatar as AntdAvatar, AvatarProps } from 'antd'
 
+type Props = AvatarProps & {
+    name: string;
+}
 
-const CustomAvatar = () => {
+const CustomAvatar = ({ name, style, ...rest }: Props) => {
   return (
-    <div>custom-avatar</div>
+    <AntdAvatar
+     alt={'Khashayar Mirbabaie'}
+     size="small"
+     style={{ 
+        backgroundColor: '#87d068',
+        display: 'flex',
+        alignItems: 'center',
+        border: 'none'
+    
+    }}
+    >
+      {name} 
+    </AntdAvatar>
   )
 }
 
