@@ -2,7 +2,7 @@
 
 const DealsChart = () => {
   return (
-    <div>deals-chart</div>
+    <div>DealsChart</div>
   )
 }
 
