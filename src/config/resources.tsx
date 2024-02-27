@@ -1,4 +1,4 @@
- import { DashboardFilled, DashboardOutlined, ProjectOutlined, ShopOutlined } from "@ant-design/icons";
+ import { DashboardOutlined, ProjectOutlined, ShopOutlined } from "@ant-design/icons";
 import { IResourceItem } from "@refinedev/core";
 
 
