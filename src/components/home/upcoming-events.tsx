@@ -26,12 +26,18 @@ const UpcomingEvents = () => {
       }
     >
         {isLoading ? (
-            <List>
+            <List 
+                itemLayout="horizontal"
+                dataSource={Array.from({ length: 5 }).map((_, index) =>({
+                    id: index,
+                    
+                }))}
+            >
 
             </List>
         ) : (
             <List>
-                
+
             </List>
         )}
     </Card>
